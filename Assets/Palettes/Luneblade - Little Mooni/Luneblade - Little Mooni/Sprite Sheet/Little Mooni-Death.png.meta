@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: b8143d697f19c1c48b15ab971af813c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1961627174983551627
+    second: Little Mooni-Death_0
+  - first:
+      213: 1125576331597786016
+    second: Little Mooni-Death_1
+  - first:
+      213: -2537247180917149668
+    second: Little Mooni-Death_2
+  - first:
+      213: 8984246797684368831
+    second: Little Mooni-Death_3
+  - first:
+      213: 6007738894422685446
+    second: Little Mooni-Death_4
+  - first:
+      213: -5044055808925446737
+    second: Little Mooni-Death_5
+  - first:
+      213: 6676944808316717242
+    second: Little Mooni-Death_6
+  - first:
+      213: -3994491472375197693
+    second: Little Mooni-Death_7
+  - first:
+      213: -1076833626516418715
+    second: Little Mooni-Death_8
+  - first:
+      213: 4263433712640192033
+    second: Little Mooni-Death_9
+  - first:
+      213: -3036251303057358519
+    second: Little Mooni-Death_10
+  - first:
+      213: -3520961756954197033
+    second: Little Mooni-Death_11
+  - first:
+      213: 879944083471673238
+    second: Little Mooni-Death_12
+  - first:
+      213: -2100603417584301673
+    second: Little Mooni-Death_13
+  - first:
+      213: 3386085974330917253
+    second: Little Mooni-Death_14
+  - first:
+      213: 5904864682162207593
+    second: Little Mooni-Death_15
+  - first:
+      213: -796939423701526586
+    second: Little Mooni-Death_16
+  - first:
+      213: 7328255371148165682
+    second: Little Mooni-Death_17
+  - first:
+      213: -486419627424891495
+    second: Little Mooni-Death_18
+  - first:
+      213: 7963504196496526173
+    second: Little Mooni-Death_19
+  - first:
+      213: 3146038880755122315
+    second: Little Mooni-Death_20
+  - first:
+      213: 8133269669137201535
+    second: Little Mooni-Death_21
+  - first:
+      213: -2630684270419805692
+    second: Little Mooni-Death_22
+  - first:
+      213: 5008479540321410701
+    second: Little Mooni-Death_23
+  - first:
+      213: 728044346600868473
+    second: Little Mooni-Death_24
+  - first:
+      213: 8248064551434782007
+    second: Little Mooni-Death_25
+  - first:
+      213: 5045442180219004240
+    second: Little Mooni-Death_26
+  - first:
+      213: 4426098030825078557
+    second: Little Mooni-Death_27
+  - first:
+      213: -5278650130273937158
+    second: Little Mooni-Death_28
+  - first:
+      213: -8128666885979280960
+    second: Little Mooni-Death_29
+  - first:
+      213: -5087805556337715439
+    second: Little Mooni-Death_30
+  - first:
+      213: 4128536918331622753
+    second: Little Mooni-Death_31
+  - first:
+      213: 6207640183057065992
+    second: Little Mooni-Death_32
+  - first:
+      213: -2012110077916819348
+    second: Little Mooni-Death_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Mooni-Death_0
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 62
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5753a5d3a76e6c4e0800000000000000
+      internalID: -1961627174983551627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 62
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab2974c5b9de9f00800000000000000
+      internalID: 1125576331597786016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_2
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 62
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c107212c123e9ccd0800000000000000
+      internalID: -2537247180917149668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 62
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5ea66acd47eac70800000000000000
+      internalID: 8984246797684368831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 70
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607bc51b1b6cf5350800000000000000
+      internalID: 6007738894422685446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_5
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 87
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadc0c167f9eff9b0800000000000000
+      internalID: -5044055808925446737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_6
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 72
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab84b9c5de549ac50800000000000000
+      internalID: 6676944808316717242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_7
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 84
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300dfba6b27b098c0800000000000000
+      internalID: -3994491472375197693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_8
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 62
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f0b41a5815e01f0800000000000000
+      internalID: -1076833626516418715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_9
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 63
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ee75d7f52ca2b30800000000000000
+      internalID: 4263433712640192033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_10
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 62
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9410370d6811dd5d0800000000000000
+      internalID: -3036251303057358519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_11
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 62
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d38209dfe7032fc0800000000000000
+      internalID: -3520961756954197033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_12
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 62
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69729855b70363c00800000000000000
+      internalID: 879944083471673238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_13
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 62
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7998ae8325829d2e0800000000000000
+      internalID: -2100603417584301673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_14
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 62
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5814deed04bcdfe20800000000000000
+      internalID: 3386085974330917253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b3703a42b42f150800000000000000
+      internalID: 5904864682162207593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 62
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c714c601d3b0f4f0800000000000000
+      internalID: -796939423701526586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 62
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23282acee6133b560800000000000000
+      internalID: 7328255371148165682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_18
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 62
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dbf8f0de3ef39f0800000000000000
+      internalID: -486419627424891495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_19
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 70
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b028fcfdc048e60800000000000000
+      internalID: 7963504196496526173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_20
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 62
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800af091b9f8ab20800000000000000
+      internalID: 3146038880755122315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_21
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 62
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79b1631cad2fd070800000000000000
+      internalID: 8133269669137201535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_22
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 62
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a7b61189eed7bd0800000000000000
+      internalID: -2630684270419805692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_23
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 62
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e5ba91b91b18540800000000000000
+      internalID: 5008479540321410701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_24
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a40e3d9788a1a00800000000000000
+      internalID: 728044346600868473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_25
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73503c86203077270800000000000000
+      internalID: 8248064551434782007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_26
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055e9b65ee2050640800000000000000
+      internalID: 5045442180219004240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_27
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f726465b8ac6d30800000000000000
+      internalID: 4426098030825078557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_28
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8d37b8ca77eb6b0800000000000000
+      internalID: -5278650130273937158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_29
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c969b3e88c213f80800000000000000
+      internalID: -8128666885979280960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_30
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1175b388dcb7469b0800000000000000
+      internalID: -5087805556337715439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_31
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1650e3b04728b4930800000000000000
+      internalID: 4128536918331622753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_32
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808ae846bd7f52650800000000000000
+      internalID: 6207640183057065992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Death_33
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 62
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d8c47b8c8314e0800000000000000
+      internalID: -2012110077916819348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Little Mooni-Death_0: -1961627174983551627
+      Little Mooni-Death_1: 1125576331597786016
+      Little Mooni-Death_10: -3036251303057358519
+      Little Mooni-Death_11: -3520961756954197033
+      Little Mooni-Death_12: 879944083471673238
+      Little Mooni-Death_13: -2100603417584301673
+      Little Mooni-Death_14: 3386085974330917253
+      Little Mooni-Death_15: 5904864682162207593
+      Little Mooni-Death_16: -796939423701526586
+      Little Mooni-Death_17: 7328255371148165682
+      Little Mooni-Death_18: -486419627424891495
+      Little Mooni-Death_19: 7963504196496526173
+      Little Mooni-Death_2: -2537247180917149668
+      Little Mooni-Death_20: 3146038880755122315
+      Little Mooni-Death_21: 8133269669137201535
+      Little Mooni-Death_22: -2630684270419805692
+      Little Mooni-Death_23: 5008479540321410701
+      Little Mooni-Death_24: 728044346600868473
+      Little Mooni-Death_25: 8248064551434782007
+      Little Mooni-Death_26: 5045442180219004240
+      Little Mooni-Death_27: 4426098030825078557
+      Little Mooni-Death_28: -5278650130273937158
+      Little Mooni-Death_29: -8128666885979280960
+      Little Mooni-Death_3: 8984246797684368831
+      Little Mooni-Death_30: -5087805556337715439
+      Little Mooni-Death_31: 4128536918331622753
+      Little Mooni-Death_32: 6207640183057065992
+      Little Mooni-Death_33: -2012110077916819348
+      Little Mooni-Death_4: 6007738894422685446
+      Little Mooni-Death_5: -5044055808925446737
+      Little Mooni-Death_6: 6676944808316717242
+      Little Mooni-Death_7: -3994491472375197693
+      Little Mooni-Death_8: -1076833626516418715
+      Little Mooni-Death_9: 4263433712640192033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

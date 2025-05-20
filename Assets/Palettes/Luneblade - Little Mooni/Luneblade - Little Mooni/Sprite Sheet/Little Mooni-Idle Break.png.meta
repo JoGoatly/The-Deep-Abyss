@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 45fef610b9d30514c9c1e0ff4c8b233d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4065617239184172583
+    second: Little Mooni-Idle Break_0
+  - first:
+      213: 8749248585962116361
+    second: Little Mooni-Idle Break_1
+  - first:
+      213: -4724661271707269395
+    second: Little Mooni-Idle Break_2
+  - first:
+      213: 5459387924968965080
+    second: Little Mooni-Idle Break_3
+  - first:
+      213: -7087006929360714573
+    second: Little Mooni-Idle Break_4
+  - first:
+      213: 4543075435004061501
+    second: Little Mooni-Idle Break_5
+  - first:
+      213: 3169247808827712104
+    second: Little Mooni-Idle Break_6
+  - first:
+      213: 1963423328671274498
+    second: Little Mooni-Idle Break_7
+  - first:
+      213: 7521303069060613291
+    second: Little Mooni-Idle Break_8
+  - first:
+      213: 2554476932183643856
+    second: Little Mooni-Idle Break_9
+  - first:
+      213: -4068706036625394932
+    second: Little Mooni-Idle Break_10
+  - first:
+      213: -3493196278963643859
+    second: Little Mooni-Idle Break_11
+  - first:
+      213: -4252851070298908881
+    second: Little Mooni-Idle Break_12
+  - first:
+      213: 1170867959022962093
+    second: Little Mooni-Idle Break_13
+  - first:
+      213: -4218752124535888522
+    second: Little Mooni-Idle Break_14
+  - first:
+      213: -8899728820801738493
+    second: Little Mooni-Idle Break_15
+  - first:
+      213: 187472976507740948
+    second: Little Mooni-Idle Break_16
+  - first:
+      213: -8793423348361032087
+    second: Little Mooni-Idle Break_17
+  - first:
+      213: 8370410340238628288
+    second: Little Mooni-Idle Break_18
+  - first:
+      213: -2878477404621947082
+    second: Little Mooni-Idle Break_19
+  - first:
+      213: 262952095687843099
+    second: Little Mooni-Idle Break_20
+  - first:
+      213: -6674429391918874111
+    second: Little Mooni-Idle Break_21
+  - first:
+      213: 8081446527632726816
+    second: Little Mooni-Idle Break_22
+  - first:
+      213: 516548381690087228
+    second: Little Mooni-Idle Break_23
+  - first:
+      213: -3235693637652537102
+    second: Little Mooni-Idle Break_24
+  - first:
+      213: -2121346437493857821
+    second: Little Mooni-Idle Break_25
+  - first:
+      213: -8364600821386243912
+    second: Little Mooni-Idle Break_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d919b959a60497c0800000000000000
+      internalID: -4065617239184172583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9055cd1cb339b6970800000000000000
+      internalID: 8749248585962116361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6c7df0b91ae6eb0800000000000000
+      internalID: -4724661271707269395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305d68464a3cb40800000000000000
+      internalID: 5459387924968965080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_4
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b409be0fb4e5ad90800000000000000
+      internalID: -7087006929360714573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_5
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d376833b90f3c0f30800000000000000
+      internalID: 4543075435004061501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_6
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8626c5a371e6bfb20800000000000000
+      internalID: 3169247808827712104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_7
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2069a216d1b7f3b10800000000000000
+      internalID: 1963423328671274498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_8
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4c96faa49016860800000000000000
+      internalID: 7521303069060613291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_9
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d65cb15c33537320800000000000000
+      internalID: 2554476932183643856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_10
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03b477aa6d0987c0800000000000000
+      internalID: -4068706036625394932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_11
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad7a5fd7ca58fc0800000000000000
+      internalID: -3493196278963643859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_12
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f279130fb76daf4c0800000000000000
+      internalID: -4252851070298908881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_13
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da543788432cf3010800000000000000
+      internalID: 1170867959022962093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_14
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6752d9d6b4bf375c0800000000000000
+      internalID: -4218752124535888522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_15
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3096ece4acfcd7480800000000000000
+      internalID: -8899728820801738493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_16
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413aab9cda90a9200800000000000000
+      internalID: 187472976507740948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_17
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e8051ed0c77f580800000000000000
+      internalID: -8793423348361032087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_18
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c51e2a2bdba92470800000000000000
+      internalID: 8370410340238628288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_19
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f35832d089d08d0800000000000000
+      internalID: -2878477404621947082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_20
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d1b60b98136a300800000000000000
+      internalID: 262952095687843099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_21
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102cf38a4d9af53a0800000000000000
+      internalID: -6674429391918874111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_22
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bdcdeacc0172070800000000000000
+      internalID: 8081446527632726816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_23
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37c0ff24062b2700800000000000000
+      internalID: 516548381690087228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_24
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0aabda7c18813d0800000000000000
+      internalID: -3235693637652537102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_25
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e163ab87a67f82e0800000000000000
+      internalID: -2121346437493857821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Idle Break_26
+      rect:
+        serializedVersion: 2
+        x: 3802
+        y: 62
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b01559ded7faeb80800000000000000
+      internalID: -8364600821386243912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Little Mooni-Idle Break_0: -4065617239184172583
+      Little Mooni-Idle Break_1: 8749248585962116361
+      Little Mooni-Idle Break_10: -4068706036625394932
+      Little Mooni-Idle Break_11: -3493196278963643859
+      Little Mooni-Idle Break_12: -4252851070298908881
+      Little Mooni-Idle Break_13: 1170867959022962093
+      Little Mooni-Idle Break_14: -4218752124535888522
+      Little Mooni-Idle Break_15: -8899728820801738493
+      Little Mooni-Idle Break_16: 187472976507740948
+      Little Mooni-Idle Break_17: -8793423348361032087
+      Little Mooni-Idle Break_18: 8370410340238628288
+      Little Mooni-Idle Break_19: -2878477404621947082
+      Little Mooni-Idle Break_2: -4724661271707269395
+      Little Mooni-Idle Break_20: 262952095687843099
+      Little Mooni-Idle Break_21: -6674429391918874111
+      Little Mooni-Idle Break_22: 8081446527632726816
+      Little Mooni-Idle Break_23: 516548381690087228
+      Little Mooni-Idle Break_24: -3235693637652537102
+      Little Mooni-Idle Break_25: -2121346437493857821
+      Little Mooni-Idle Break_26: -8364600821386243912
+      Little Mooni-Idle Break_3: 5459387924968965080
+      Little Mooni-Idle Break_4: -7087006929360714573
+      Little Mooni-Idle Break_5: 4543075435004061501
+      Little Mooni-Idle Break_6: 3169247808827712104
+      Little Mooni-Idle Break_7: 1963423328671274498
+      Little Mooni-Idle Break_8: 7521303069060613291
+      Little Mooni-Idle Break_9: 2554476932183643856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,9 +15,22 @@ public class EnemyController2D : MonoBehaviour
     [Tooltip("Soll der Sprite in Bewegungsrichtung gedreht werden?")]
     public bool flipSpriteToDirection = true;
 
+    [Header("Sichtradius-Einstellungen")]
+    [Tooltip("Radius in dem der Gegner den Spieler erkennen kann")]
+    public float sightRadius = 7.0f;
+
+    [Tooltip("Aktiviert die Visualisierung des Sichtradius im Editor")]
+    public bool showSightRadius = true;
+
+    [Tooltip("Wenn aktiviert, kehrt der Gegner zur Startposition zurück, wenn der Spieler nicht mehr in Sicht ist")]
+    public bool returnToStartPosition = true;
+
     [Header("Kollisions-Einstellungen")]
     [Tooltip("Layer, die als Hindernis gelten (Wände etc.)")]
     public LayerMask obstacleLayer;
+
+    [Tooltip("Layer des Spielers für Sichtprüfung")]
+    public LayerMask playerLayer;
 
     [Tooltip("Suchradius für Kollisionen")]
     public float collisionRadius = 0.5f;
@@ -31,9 +44,15 @@ public class EnemyController2D : MonoBehaviour
     private bool hasAnimator = false;
     private bool hasSpriteRenderer = false;
     private Vector2 moveDirection;
+    private Vector3 startPosition;
+    private bool isPlayerInSight = false;
+    private bool isReturningToStart = false;
 
     void Start()
     {
+        // Speichere die Startposition für die Rückkehrfunktion
+        startPosition = transform.position;
+
         // Hole den Rigidbody2D (wird für die physikbasierte Bewegung benötigt)
         rb = GetComponent<Rigidbody2D>();
 
@@ -70,6 +89,70 @@ public class EnemyController2D : MonoBehaviour
     }
 
     void Update()
+    {
+        if (playerTransform == null)
+            return;
+
+        // Prüfe, ob der Spieler im Sichtradius ist
+        CheckPlayerInSight();
+
+        // Wenn der Spieler in Sicht ist, verfolge ihn
+        if (isPlayerInSight)
+        {
+            isReturningToStart = false;
+            ChasePlayer();
+        }
+        // Ansonsten zur Startposition zurückkehren, falls aktiviert
+        else if (returnToStartPosition && !isNearStartPosition())
+        {
+            isReturningToStart = true;
+            ReturnToStart();
+        }
+        else
+        {
+            // Stoppe die Bewegung
+            moveDirection = Vector2.zero;
+
+            // Animation stoppen, falls vorhanden
+            if (hasAnimator)
+            {
+                animator.SetBool("isMoving", false);
+            }
+        }
+    }
+
+    // Prüfe, ob der Spieler im Sichtradius ist
+    void CheckPlayerInSight()
+    {
+        if (playerTransform == null)
+            return;
+
+        // Berechne Distanz zum Spieler
+        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+
+        // Prüfe, ob der Spieler innerhalb des Sichtradius ist
+        if (distanceToPlayer <= sightRadius)
+        {
+            // Optional: Sichtlinienprüfung mit Raycast
+            RaycastHit2D hit = Physics2D.Linecast(
+                transform.position,
+                playerTransform.position,
+                obstacleLayer
+            );
+
+            // Wenn es keine Hindernisse zwischen Gegner und Spieler gibt
+            if (hit.collider == null)
+            {
+                isPlayerInSight = true;
+                return;
+            }
+        }
+
+        isPlayerInSight = false;
+    }
+
+    // Verfolgungslogik für den Spieler
+    void ChasePlayer()
     {
         if (playerTransform == null)
             return;
@@ -120,6 +203,44 @@ public class EnemyController2D : MonoBehaviour
                 animator.SetBool("isMoving", false);
             }
         }
+    }
+
+    // Zur Startposition zurückkehren
+    void ReturnToStart()
+    {
+        // Berechne Richtung zur Startposition
+        Vector2 directionToStart = (Vector2)(startPosition - transform.position);
+        float distanceToStart = directionToStart.magnitude;
+
+        // Normalisiere die Richtung
+        directionToStart.Normalize();
+
+        // Sprite in Bewegungsrichtung drehen (falls erwünscht)
+        if (hasSpriteRenderer && flipSpriteToDirection && directionToStart.x != 0)
+        {
+            spriteRenderer.flipX = directionToStart.x < 0;
+        }
+
+        // Setze die Bewegungsrichtung
+        moveDirection = directionToStart;
+
+        // Animation kontrollieren, falls vorhanden
+        if (hasAnimator)
+        {
+            animator.SetBool("isMoving", true);
+        }
+
+        // Wenn kein Rigidbody verwendet wird, bewege direkt mit Kollisionserkennung
+        if (!useRigidbody)
+        {
+            MoveWithCollisionCheck(directionToStart);
+        }
+    }
+
+    // Prüfe, ob der Gegner nahe der Startposition ist
+    bool isNearStartPosition()
+    {
+        return Vector2.Distance(transform.position, startPosition) < 0.1f;
     }
 
     // Physikbasierte Bewegung mit Rigidbody2D
@@ -214,10 +335,21 @@ public class EnemyController2D : MonoBehaviour
         }
     }
 
-    // Hilfe zur Visualisierung des Kollisionsradius im Editor
-    void OnDrawGizmosSelected()
+    // Visualisiere den Sichtradius im Unity-Editor
+    private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, collisionRadius);
+        if (showSightRadius)
+        {
+            // Zeige den Sichtradius in Gelb an (oder in Rot, wenn der Spieler gesehen wird)
+            Gizmos.color = isPlayerInSight ? Color.red : Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, sightRadius);
+
+            // Zeige die Startposition an
+            if (returnToStartPosition && Application.isPlaying)
+            {
+                Gizmos.color = Color.blue;
+                Gizmos.DrawWireSphere(startPosition, 0.3f);
+            }
+        }
     }
 }

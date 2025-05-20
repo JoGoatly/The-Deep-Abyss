@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: db981981aa597564da2a8fa1a70f5d43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7624431209319031477
+    second: Little Mooni-Thrust_0
+  - first:
+      213: 6497293670206245306
+    second: Little Mooni-Thrust_1
+  - first:
+      213: -1106856190446035909
+    second: Little Mooni-Thrust_2
+  - first:
+      213: -7094131787288433038
+    second: Little Mooni-Thrust_3
+  - first:
+      213: 4739645946539434479
+    second: Little Mooni-Thrust_4
+  - first:
+      213: 2525798960171387257
+    second: Little Mooni-Thrust_5
+  - first:
+      213: 453174878525510574
+    second: Little Mooni-Thrust_6
+  - first:
+      213: 7725956139713926575
+    second: Little Mooni-Thrust_7
+  - first:
+      213: -5725387308414524335
+    second: Little Mooni-Thrust_8
+  - first:
+      213: 4846531395211898546
+    second: Little Mooni-Thrust_9
+  - first:
+      213: -7169519184877476088
+    second: Little Mooni-Thrust_10
+  - first:
+      213: -6372927916850379748
+    second: Little Mooni-Thrust_11
+  - first:
+      213: 7561143337044287028
+    second: Little Mooni-Thrust_12
+  - first:
+      213: 6486566481778776357
+    second: Little Mooni-Thrust_13
+  - first:
+      213: -7328984706826533996
+    second: Little Mooni-Thrust_14
+  - first:
+      213: -6277601161248012126
+    second: Little Mooni-Thrust_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 62
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d132a0634903690800000000000000
+      internalID: -7624431209319031477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9890e3b260b2a50800000000000000
+      internalID: 6497293670206245306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c950fb828a3a0f0800000000000000
+      internalID: -1106856190446035909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eaddcc9b49c8d90800000000000000
+      internalID: -7094131787288433038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe16a9c60ea96c140800000000000000
+      internalID: 4739645946539434479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_5
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9790113a5c07d0320800000000000000
+      internalID: 2525798960171387257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 62
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3d4a7a6200a4600800000000000000
+      internalID: 453174878525510574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_7
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 62
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa595e9dc2c183b60800000000000000
+      internalID: 7725956139713926575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_8
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 62
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1542c60d3965b80b0800000000000000
+      internalID: -5725387308414524335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_9
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 62
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be226c30a6524340800000000000000
+      internalID: 4846531395211898546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 62
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807a70f7940c08c90800000000000000
+      internalID: -7169519184877476088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_11
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 62
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1486f823dfce87a0800000000000000
+      internalID: -6372927916850379748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_12
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 71
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e165cedc39ee860800000000000000
+      internalID: 7561143337044287028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_13
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 62
+        width: 64
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529116e09d9e40a50800000000000000
+      internalID: 6486566481778776357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_14
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 62
+        width: 64
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49385516d373a4a90800000000000000
+      internalID: -7328984706826533996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Thrust_15
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 62
+        width: 68
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a88b36010b71e8a0800000000000000
+      internalID: -6277601161248012126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Little Mooni-Thrust_0: -7624431209319031477
+      Little Mooni-Thrust_1: 6497293670206245306
+      Little Mooni-Thrust_10: -7169519184877476088
+      Little Mooni-Thrust_11: -6372927916850379748
+      Little Mooni-Thrust_12: 7561143337044287028
+      Little Mooni-Thrust_13: 6486566481778776357
+      Little Mooni-Thrust_14: -7328984706826533996
+      Little Mooni-Thrust_15: -6277601161248012126
+      Little Mooni-Thrust_2: -1106856190446035909
+      Little Mooni-Thrust_3: -7094131787288433038
+      Little Mooni-Thrust_4: 4739645946539434479
+      Little Mooni-Thrust_5: 2525798960171387257
+      Little Mooni-Thrust_6: 453174878525510574
+      Little Mooni-Thrust_7: 7725956139713926575
+      Little Mooni-Thrust_8: -5725387308414524335
+      Little Mooni-Thrust_9: 4846531395211898546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 154452df558ab30418fe825d7e567892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2268163112012321057
+    second: Little Mooni-Smash_0
+  - first:
+      213: 8777471602032850485
+    second: Little Mooni-Smash_1
+  - first:
+      213: 4567392455401681211
+    second: Little Mooni-Smash_2
+  - first:
+      213: -6640013283680165749
+    second: Little Mooni-Smash_3
+  - first:
+      213: 6240610275900255036
+    second: Little Mooni-Smash_4
+  - first:
+      213: -3595575006902896653
+    second: Little Mooni-Smash_5
+  - first:
+      213: -8837398134011557647
+    second: Little Mooni-Smash_6
+  - first:
+      213: -2545867422261759297
+    second: Little Mooni-Smash_7
+  - first:
+      213: -3806588553749191381
+    second: Little Mooni-Smash_8
+  - first:
+      213: 2429224403907791241
+    second: Little Mooni-Smash_9
+  - first:
+      213: -8280082636855811717
+    second: Little Mooni-Smash_10
+  - first:
+      213: -6035266205452125726
+    second: Little Mooni-Smash_11
+  - first:
+      213: -1690235298279607633
+    second: Little Mooni-Smash_12
+  - first:
+      213: -2094142351498033731
+    second: Little Mooni-Smash_13
+  - first:
+      213: 6931823067080136293
+    second: Little Mooni-Smash_14
+  - first:
+      213: -3398320528948101979
+    second: Little Mooni-Smash_15
+  - first:
+      213: 6147141143649671029
+    second: Little Mooni-Smash_16
+  - first:
+      213: -8447304287262872579
+    second: Little Mooni-Smash_17
+  - first:
+      213: 3289841799299774872
+    second: Little Mooni-Smash_18
+  - first:
+      213: -6889607698129026947
+    second: Little Mooni-Smash_19
+  - first:
+      213: -4701268286010956853
+    second: Little Mooni-Smash_20
+  - first:
+      213: -6589900126432407839
+    second: Little Mooni-Smash_21
+  - first:
+      213: 3266721825938490913
+    second: Little Mooni-Smash_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Mooni-Smash_0
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 62
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde6cd7baadd580e0800000000000000
+      internalID: -2268163112012321057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_1
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 62
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5363f31cae7dfc970800000000000000
+      internalID: 8777471602032850485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_2
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 62
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3134063d33a26f30800000000000000
+      internalID: 4567392455401681211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_3
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 62
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b806e5a491fe9d3a0800000000000000
+      internalID: -6640013283680165749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_4
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3befa45bf91b9650800000000000000
+      internalID: 6240610275900255036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_5
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 62
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b746d493f91ec0800000000000000
+      internalID: -3595575006902896653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_6
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f88a8b38314b5580800000000000000
+      internalID: -8837398134011557647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_7
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 62
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb239da61134bacd0800000000000000
+      internalID: -2545867422261759297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_8
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 62
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2526b7e0e74c2bc0800000000000000
+      internalID: -3806588553749191381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_9
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 62
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98942aa89b656b120800000000000000
+      internalID: 2429224403907791241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 62
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71645726bc371d80800000000000000
+      internalID: -8280082636855811717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e93b13cc5d6e3ca0800000000000000
+      internalID: -6035266205452125726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2b73393f31b88e0800000000000000
+      internalID: -1690235298279607633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5cbd560ac10f2e0800000000000000
+      internalID: -2094142351498033731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_14
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5669b276a58c23060800000000000000
+      internalID: 6931823067080136293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 62
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac7127eb7db6d0d0800000000000000
+      internalID: -3398320528948101979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_16
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 62
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5775d6b1d480f4550800000000000000
+      internalID: 6147141143649671029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_17
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbef08a18525ca80800000000000000
+      internalID: -8447304287262872579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_18
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 62
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899be76afadd7ad20800000000000000
+      internalID: 3289841799299774872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_19
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 62
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70093f1d423360a0800000000000000
+      internalID: -6889607698129026947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_20
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 62
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3e18af66db1ceb0800000000000000
+      internalID: -4701268286010956853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_21
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eec1b2ffb8fb84a0800000000000000
+      internalID: -6589900126432407839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mooni-Smash_22
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 63
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126441f513ab55d20800000000000000
+      internalID: 3266721825938490913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Little Mooni-Smash_0: -2268163112012321057
+      Little Mooni-Smash_1: 8777471602032850485
+      Little Mooni-Smash_10: -8280082636855811717
+      Little Mooni-Smash_11: -6035266205452125726
+      Little Mooni-Smash_12: -1690235298279607633
+      Little Mooni-Smash_13: -2094142351498033731
+      Little Mooni-Smash_14: 6931823067080136293
+      Little Mooni-Smash_15: -3398320528948101979
+      Little Mooni-Smash_16: 6147141143649671029
+      Little Mooni-Smash_17: -8447304287262872579
+      Little Mooni-Smash_18: 3289841799299774872
+      Little Mooni-Smash_19: -6889607698129026947
+      Little Mooni-Smash_2: 4567392455401681211
+      Little Mooni-Smash_20: -4701268286010956853
+      Little Mooni-Smash_21: -6589900126432407839
+      Little Mooni-Smash_22: 3266721825938490913
+      Little Mooni-Smash_3: -6640013283680165749
+      Little Mooni-Smash_4: 6240610275900255036
+      Little Mooni-Smash_5: -3595575006902896653
+      Little Mooni-Smash_6: -8837398134011557647
+      Little Mooni-Smash_7: -2545867422261759297
+      Little Mooni-Smash_8: -3806588553749191381
+      Little Mooni-Smash_9: 2429224403907791241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
