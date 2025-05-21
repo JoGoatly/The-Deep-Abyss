@@ -1,20 +1,19 @@
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class DoorInteraction : MonoBehaviour
+public class LadderInteraction : MonoBehaviour
 {
     [Header("Interaction Settings")]
     public Transform interactionAreaPosition; // Position where the player interacts with the door
     public float interactionDistance = 1.5f;
     public KeyCode interactionKey = KeyCode.E;
     public GameObject interactionPrompt;
-
-    [Header("Destruction Settings")]
-    public GameObject destroyEffect; // Optional particle effect when door is destroyed
-    public AudioClip destroySound; // Optional sound effect when door is destroyed
+    public string SceneToLoad;
 
     private Transform playerTransform;
     private bool playerInRange = false;
-    private AudioSource audioSource;
+    private float targetRotation;
 
     void Start()
     {
@@ -27,13 +26,6 @@ public class DoorInteraction : MonoBehaviour
         else
         {
             Debug.LogError("Player with tag 'Player' not found!");
-        }
-
-        // Get audio source for sound effects
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null && destroySound != null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
         }
 
         // Create interaction area if not set
@@ -61,8 +53,6 @@ public class DoorInteraction : MonoBehaviour
         {
             interactionPrompt.SetActive(false);
         }
-
-        Debug.Log("Door initialized and ready for destruction!");
     }
 
     void Update()
@@ -79,7 +69,6 @@ public class DoorInteraction : MonoBehaviour
                 if (!playerInRange)
                 {
                     playerInRange = true;
-                    Debug.Log("Player entered interaction range! Distance: " + distanceToPlayer);
                     if (interactionPrompt != null)
                     {
                         interactionPrompt.SetActive(true);
@@ -89,15 +78,13 @@ public class DoorInteraction : MonoBehaviour
                 // Check for interaction key press while in range
                 if (Input.GetKeyDown(interactionKey))
                 {
-                    Debug.Log("E key pressed - destroying door!");
-                    DestroyDoor();
+                    LoadScene();
                 }
             }
             else if (playerInRange)
             {
                 // Player left range
                 playerInRange = false;
-                Debug.Log("Player left interaction range!");
                 if (interactionPrompt != null)
                 {
                     interactionPrompt.SetActive(false);
@@ -106,44 +93,9 @@ public class DoorInteraction : MonoBehaviour
         }
     }
 
-    private void DestroyDoor()
+    public void LoadScene()
     {
-        // Play destruction sound if available
-        if (destroySound != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(destroySound);
-        }
-
-        // Spawn destruction effect if available
-        if (destroyEffect != null)
-        {
-            Instantiate(destroyEffect, transform.position, transform.rotation);
-        }
-
-        // Hide interaction prompt if it exists
-        if (interactionPrompt != null)
-        {
-            interactionPrompt.SetActive(false);
-        }
-
-        Debug.Log("Door destroyed!");
-
-        // If we have a sound to play, wait for it to finish before destroying
-        if (destroySound != null && audioSource != null)
-        {
-            // Detach audio source so it can finish playing
-            GameObject tempAudio = new GameObject("TempAudio");
-            tempAudio.transform.position = transform.position;
-            AudioSource tempSource = tempAudio.AddComponent<AudioSource>();
-            tempSource.clip = destroySound;
-            tempSource.Play();
-
-            // Destroy the temp audio object after the clip finishes
-            Destroy(tempAudio, destroySound.length);
-        }
-
-        // Destroy the door immediately
-        Destroy(gameObject);
+        SceneManager.LoadScene(SceneToLoad);
     }
 
     // Draw gizmos to visualize interaction area
@@ -151,7 +103,7 @@ public class DoorInteraction : MonoBehaviour
     {
         if (interactionAreaPosition != null)
         {
-            Gizmos.color = Color.red; // Changed to red to indicate destruction
+            Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(interactionAreaPosition.position, interactionDistance);
 
             // Draw line from door to interaction area
