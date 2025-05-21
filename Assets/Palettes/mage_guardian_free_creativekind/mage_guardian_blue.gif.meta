@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mage_guardian_blue_0: 5279917591105545394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

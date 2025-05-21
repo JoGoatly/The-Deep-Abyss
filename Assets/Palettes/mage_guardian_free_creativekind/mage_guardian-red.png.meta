@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mage_guardian-red_0: -56096711997968560
+      mage_guardian-red_1: 1624271203710118477
+      mage_guardian-red_10: -3340285259349648652
+      mage_guardian-red_11: 4693797005020723055
+      mage_guardian-red_12: -3857058581061600482
+      mage_guardian-red_13: -5968226681231207381
+      mage_guardian-red_14: -960920375420965481
+      mage_guardian-red_15: 3205524074292089072
+      mage_guardian-red_16: 1249732195688204276
+      mage_guardian-red_2: -5974606145750292144
+      mage_guardian-red_3: 6043911475964852218
+      mage_guardian-red_4: -6112177067682651957
+      mage_guardian-red_5: -7318944614184176678
+      mage_guardian-red_6: 3098230397532189534
+      mage_guardian-red_7: -371954645416299793
+      mage_guardian-red_8: 6498658609694200787
+      mage_guardian-red_9: -6182478532846762154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

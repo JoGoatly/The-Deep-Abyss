@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GAME_/Core/Settings/Scenes/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: f1b66aa042b3d1f4bbe2e98b4c11668c
   - enabled: 1
-    path: Assets/_GAME_/Core/Settings/Scenes/HomeTown.unity
+    path: Assets/Scenes/HomeTown.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/_GAME_/Core/Settings/Scenes/Dungeon.unity
     guid: 4e130fddcf746a54fab8ee19d92a071e
   - enabled: 1
-    path: Assets/_GAME_/Core/Settings/Scenes/FirstLevel.unity
+    path: Assets/Scenes/FirstLevel.unity
     guid: 7faf922864a28ed44bd6f7a4e2f673b6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

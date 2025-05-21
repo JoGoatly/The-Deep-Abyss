@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mage_guardian-magenta_0: 3763649122343108368
+      mage_guardian-magenta_1: -7673272456650097495
+      mage_guardian-magenta_10: 9147026623122007903
+      mage_guardian-magenta_11: 5728707175456056263
+      mage_guardian-magenta_12: -5706832697469619022
+      mage_guardian-magenta_13: 1422636281239544470
+      mage_guardian-magenta_14: -78628119812621925
+      mage_guardian-magenta_15: -3691837544191183369
+      mage_guardian-magenta_16: -366144370990080376
+      mage_guardian-magenta_2: 2187906530577837233
+      mage_guardian-magenta_3: -1427959775878062496
+      mage_guardian-magenta_4: -5268072034256450629
+      mage_guardian-magenta_5: -6142668481374580618
+      mage_guardian-magenta_6: 7656194639009379131
+      mage_guardian-magenta_7: 452096450877974489
+      mage_guardian-magenta_8: -7450016663419565244
+      mage_guardian-magenta_9: 2561672803153499519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

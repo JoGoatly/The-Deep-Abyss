@@ -606,12 +606,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1aba5b1b4855a74986a232fff6a6cfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionRange: 2.5
+  interactionDistance: 2
+  interactionKey: 101
   interactableLayer:
     serializedVersion: 2
     m_Bits: 0
-  interactionKey: 101
-  interactionPromptUI: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3438,9 +3437,8 @@ GameObject:
   - component: {fileID: 1815613319}
   - component: {fileID: 1815613324}
   - component: {fileID: 1815613323}
-  - component: {fileID: 1815613322}
-  - component: {fileID: 1815613321}
   - component: {fileID: 1815613320}
+  - component: {fileID: 1815613325}
   m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
@@ -3456,7 +3454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815613318}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3509,39 +3507,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1815613321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815613318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 718a1ac31495a7e4ab29ef720490e2f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionText: Interagiere mit E
-  interactionRadius: 2
---- !u!114 &1815613322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815613318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828c0cdc29e87ac43ba30f5000c0cb7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playSoundOnOpen: 1
-  openSound: {fileID: 0}
-  soundVolume: 0.5
-  destroyOnOpen: 1
-  onDoorOpen:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!483693784 &1815613323
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -3670,6 +3635,25 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1815613325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815613318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2ca6f769a0a2a4a996db04512a41e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpen: 0
+  openAngle: 90
+  closeAngle: 0
+  doorSpeed: 2
+  interactionDistance: 2
+  interactionKey: 101
+  interactionPrompt: {fileID: 1831252437}
 --- !u!1 &1831252437
 GameObject:
   m_ObjectHideFlags: 0
