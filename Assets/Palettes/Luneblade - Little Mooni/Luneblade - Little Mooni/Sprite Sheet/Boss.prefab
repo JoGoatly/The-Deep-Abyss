@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8800581425789996614}
   - component: {fileID: 7448910819632509608}
+  - component: {fileID: 195146133574752606}
   - component: {fileID: 5946806389596035023}
   m_Layer: 0
   m_Name: Boss
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2798022361360845764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.299839, y: 37.604206, z: -0.005590431}
+  m_LocalPosition: {x: 0.29983902, y: 4.604206, z: -0.005590431}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -88,6 +89,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &195146133574752606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798022361360845764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09be56eca46b794199ef56d21ac35d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1.5
+  minDistanceToPlayer: 1
+  playerTransform: {fileID: 0}
+  flipSpriteToDirection: 1
+  sightRadius: 7
+  showSightRadius: 1
+  returnToStartPosition: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  collisionRadius: 0.5
+  useRigidbody: 1
+  health: 100
+  smashAttackCooldown: 4
+  thrustAttackCooldown: 3
+  smashAttackRange: 2
+  thrustAttackRange: 3
+  smashAttackDamage: 20
+  thrustAttackDamage: 15
 --- !u!95 &5946806389596035023
 Animator:
   serializedVersion: 7

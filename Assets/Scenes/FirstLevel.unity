@@ -207,33 +207,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &210907209 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5244913041247043380, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
-  m_PrefabInstance: {fileID: 2754746722797155919}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &210907212
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210907209}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 09f3a62d33547ad43b107ba57f76d63e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &251908045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactPrompt: {fileID: 594437568}
-  sceneToLoad: Dungeon 1
+  sceneToLoad: SecondLevel
 --- !u!61 &594437571
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1240,31 +1213,11 @@ Tilemap:
   m_GameObject: {fileID: 594437568}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 2, y: 3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 1
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 0, y: 18, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5
       m_TileSpriteIndex: 5
-      m_TileMatrixIndex: 1
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 23, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1276,8 +1229,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 326860a0b6291f646b4762d1c9dd42c0, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -1289,8 +1242,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 2
-    m_Data: {fileID: -1728275826, guid: 6eee9f2bbab59e3448feb4dd2266cc5e, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -1316,7 +1269,7 @@ Tilemap:
       e31: 7.51e-43
       e32: 7.54e-43
       e33: 7.51e-43
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data:
       e00: 1
       e01: 0
@@ -1353,7 +1306,7 @@ Tilemap:
       e32: 7.54e-43
       e33: 7.51e-43
   m_TileColorArray:
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4607,7 +4560,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1760567023
   m_SortingLayer: 5
-  m_SortingOrder: 20
+  m_SortingOrder: 30
   m_Sprite: {fileID: 4840735777579599281, guid: 3e9aaba27e9b44848b979837d1a2d795, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7265,21 +7218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
-    - target: {fileID: 6701448734147657429, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
-      propertyPath: moveSpeed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6701448734147657429, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
-      propertyPath: magnetRadius
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5244913041247043380, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 210907212}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
