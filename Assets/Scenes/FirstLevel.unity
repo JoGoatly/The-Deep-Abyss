@@ -1846,6 +1846,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1989296476}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1989296479}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
 --- !u!1 &757570013
 GameObject:
@@ -3319,7 +3322,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3376,7 +3379,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  coinPrefab: {fileID: 5244913041247043380, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
+  alwaysDropCoin: 1
+  coinDropChance: 0.8
+  coinSpawnOffset: {x: 0.5, y: 0}
   hitFlashDuration: 0.15
+--- !u!114 &1177249186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177249177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4f7717098bf7940925d8e8068ff670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageInterval: 2
+  knockbackForce: 3
+  screenShakeIntensity: 0.1
+  screenShakeDuration: 0.5
+  enableDebug: 1
 --- !u!1001 &1262053527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3470,6 +3495,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1177249183}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1177249186}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 4db0f23007e056b45b54d22ed21f2250, type: 3}
 --- !u!1 &1301210315
 GameObject:
@@ -3928,13 +3956,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  currentHealth: 0
-  heartImages: []
+  currentHealth: 100
+  heartRenderers:
+  - {fileID: 987915619}
+  - {fileID: 2067513448}
+  - {fileID: 569369599}
+  - {fileID: 2026732557}
+  - {fileID: 1795089169}
   fullHeart: {fileID: 5491652103975585499, guid: d59e6bf3aab93fc4bbd6a01ba4effd49, type: 3}
   halfHeart: {fileID: 7271829884475791025, guid: d59e6bf3aab93fc4bbd6a01ba4effd49, type: 3}
   emptyHeart: {fileID: -6333243661565206645, guid: d59e6bf3aab93fc4bbd6a01ba4effd49, type: 3}
   invincibilityTime: 1
-  isInvincible: 0
+  flickerSpeed: 0.1
+  damageSound: {fileID: 0}
+  healSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &1547757185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5334,7 +5370,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -5391,7 +5427,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  coinPrefab: {fileID: 5244913041247043380, guid: 98cc991ef0bf5484a8e9b7dade72a65c, type: 3}
+  alwaysDropCoin: 1
+  coinDropChance: 0.8
+  coinSpawnOffset: {x: 0.5, y: 0}
   hitFlashDuration: 0.15
+--- !u!114 &1989296479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989296470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4f7717098bf7940925d8e8068ff670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  damageInterval: 2
+  knockbackForce: 3
+  screenShakeIntensity: 0.1
+  screenShakeDuration: 0.5
+  enableDebug: 1
 --- !u!1 &2026732556
 GameObject:
   m_ObjectHideFlags: 0
