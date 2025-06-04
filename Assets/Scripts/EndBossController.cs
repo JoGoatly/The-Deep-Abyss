@@ -538,4 +538,4 @@ public class EndBossController : MonoBehaviour
             Gizmos.DrawWireSphere(transform.position, attackRange);
         }
     }
-}
+}   
